@@ -1,0 +1,170 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(8, 8, 7);
+}
+
+
+header{
+    top:0;
+    left:0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: rgba(11, 11, 11, 0.603); 
+    border-bottom: 1px solid rgb(103, 97, 91);
+    position: fixed;
+    z-index: 1;
+    }
+
+    header .navigation{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+ 
+    }
+    header .navigation li{
+        list-style: none;
+        margin:0 10px;
+      
+     }
+     header .navigation li a{
+         color: #ef834d;
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 5px 5px;
+        transition: 0.6s ease;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+    
+     }
+     header .navigation li a:hover{
+        color: red;
+        background-color: rgb(250, 186, 175);
+        padding:10px;
+        border-radius: 8px;
+     }
+  
+#create-account-form {
+    width:70%;
+    height: 30%;
+    margin: auto;
+    padding:20px;
+    text-transform: uppercase;
+
+    
+
+}
+
+.title {
+    margin-bottom: 20px;
+    color:rgb(232, 144, 81);
+    text-align: center;
+}
+
+.input-group {
+    /* margin:20px 0;  */
+    position:relative;
+}
+
+.input-group label {
+    display:inline-block;
+    /* margin-bottom: 5px; */
+}
+
+.input-group input {
+    display:block;
+    width:100%;
+    padding:10px;  
+    border-radius: 8px; 
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }
+
+
+ .success i.fa-check-circle{
+     visibility: visible;
+     color:green;
+ }
+
+ .error i.fa-exclamation-circle {
+    visibility: visible;
+    color:red;
+}
+
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+
+ .error p {
+     visibility: visible;
+ }
+
+ .btn {
+     width:100%;
+     padding:10px;
+     font-size: 20px;
+     background-color: rgb(232, 144, 81);
+     color:rgb(22, 19, 19);
+     text-transform: uppercase;
+     border:none;
+     margin-top: 20px;
+ }
+
+ .btn h2 button:hover{
+    background-color: rgb(236, 124, 43);
+
+ }
+
+
+
+ .conb{
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgb(17, 16, 16);
+    text-align: center;
+    border-radius: 8px;
+    border-top: 4px solid #ef834d;
+   
+}
+.conA{
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(8, 8, 7);
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+
+
